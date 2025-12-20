@@ -1,0 +1,18 @@
+{
+    "version": "1.0.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ColorDemo",
+            "request": "launch",
+            "mainClass": "ColorDemo",
+        },
+        {
+            "type": "java",
+            "name": "Runigram",
+            "request": "launch",
+            "mainClass": "Runigram",
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
