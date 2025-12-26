@@ -36,6 +36,29 @@
                 "800",
                 "500"
             ]
+        },
+        {
+            "type": "java",
+            "name": "Editor3",
+            "request": "launch",
+            "mainClass": "Editor3",
+            "cwd": "${workspaceFolder}",
+            "args": [
+                "cake.ppm",
+                "ironman.ppm",
+                "50"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Editor4",
+            "request": "launch",
+            "mainClass": "Editor4",
+            "cwd": "${workspaceFolder}",
+            "args": [
+                "cake.ppm",
+                "50"
+            ]
         }
     ]
 }
