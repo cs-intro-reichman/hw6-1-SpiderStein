@@ -24,6 +24,18 @@
                 "ironman.ppm",
                 "gs"
             ]
+        },
+        {
+            "type": "java",
+            "name": "Editor2",
+            "request": "launch",
+            "mainClass": "Editor2",
+            "cwd": "${workspaceFolder}",
+            "args": [
+                "thor.ppm",
+                "800",
+                "500"
+            ]
         }
     ]
 }
