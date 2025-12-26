@@ -13,6 +13,17 @@
             "request": "launch",
             "mainClass": "Runigram",
             "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "java",
+            "name": "Editor1",
+            "request": "launch",
+            "mainClass": "Editor1",
+            "cwd": "${workspaceFolder}",
+            "args": [
+                "ironman.ppm",
+                "gs"
+            ]
         }
     ]
 }
