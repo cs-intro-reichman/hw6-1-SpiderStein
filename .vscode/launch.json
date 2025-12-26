@@ -1,0 +1,74 @@
+{
+    "version": "1.0.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ColorDemo",
+            "request": "launch",
+            "mainClass": "ColorDemo",
+        },
+        {
+            "type": "java",
+            "name": "Runigram",
+            "request": "launch",
+            "mainClass": "Runigram",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "java",
+            "name": "Editor1",
+            "request": "launch",
+            "mainClass": "Editor1",
+            "cwd": "${workspaceFolder}",
+            "args": [
+                "ironman.ppm",
+                "gs"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Editor2",
+            "request": "launch",
+            "mainClass": "Editor2",
+            "cwd": "${workspaceFolder}",
+            "args": [
+                "thor.ppm",
+                "800",
+                "500"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Editor3",
+            "request": "launch",
+            "mainClass": "Editor3",
+            "cwd": "${workspaceFolder}",
+            "args": [
+                "cake.ppm",
+                "ironman.ppm",
+                "50"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Editor4",
+            "request": "launch",
+            "mainClass": "Editor4",
+            "cwd": "${workspaceFolder}",
+            "args": [
+                "cake.ppm",
+                "50"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "TesterRunigram",
+            "request": "launch",
+            "mainClass": "TesterRunigram",
+            "cwd": "${workspaceFolder}",
+            "args": [
+                "blend"
+            ]
+        }
+    ]
+}
