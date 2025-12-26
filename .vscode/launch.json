@@ -59,6 +59,16 @@
                 "cake.ppm",
                 "50"
             ]
+        },
+        {
+            "type": "java",
+            "name": "TesterRunigram",
+            "request": "launch",
+            "mainClass": "TesterRunigram",
+            "cwd": "${workspaceFolder}",
+            "args": [
+                "blend"
+            ]
         }
     ]
 }
